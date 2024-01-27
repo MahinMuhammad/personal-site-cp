@@ -1,21 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <meta http-equiv="refresh" content="3; URL=" />
-    <link rel="stylesheet" href="./styles/style.css">
+    <title>Mahinur Rahman</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Open+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
+
 <body>
     <!-- Navbar -->
-    <div id="navbar"></div>
+    <section id="header">
+        <div id="navbar">
+            <div id="leftNavItemGroup">
+                <img src="./assets/mahinsLogo.png" alt="logo" height="60px">
+                <p id="brandName" class="serifFont">Mahinur Rahman</p>
+            </div>
+            <div id="rightNavItemGroup">
+                <a class="navLink sansFont" href="#home">Home</a>
+                <a class="navLink sansFont" href="#projects">Project</a>
+                <a class="navLink sansFont" href="#about">About</a>
+                <a class="navLink sansFont" href="#contact">Contact</a>
+            </div>
+            <div id="contextMenuSwitch" onclick="contexMenuSwitchPressed()">
+                <img id="bar-icon" src="https://d33wubrfki0l68.cloudfront.net/79e75114856ae61628d2ad26504e3ff4ab2c71b6/f06a4/assets/svg/ham-menu.svg">
+                <img id="cross-icon" src="https://d33wubrfki0l68.cloudfront.net/de2a681c8ca1630b29949b3a34bf158a686a0554/6a0ec/assets/svg/ham-menu-close.svg" style="display: none;">
+            </div>
+        </div>
+    
+        <div id="navMobile">
+            <div id="rightNavItemGroupMobile">
+                <a class="navLink linkBox sansFont" href="#home">Home</a>
+                <a class="navLink linkBox sansFont" href="#projects">Project</a>
+                <a class="navLink linkBox sansFont" href="#about">About</a>
+                <a class="navLink linkBox sansFont" href="#contact">Contact</a>
+            </div>
+        </div>
+    </section>
 
     <!-- Home -->
-    <section id="home"></section>
+    <section id="home">
+        <div id="cotainerHome">
+            <div id="heroInfoContailer">
+                <p id="heroTitle" class="serifFont">Hey I'm Mahinur Rahman</p>
+                <p id="heroDetails" class="sansFont">A passionate iOS & webapp engineer from Bangladesh, experienced
+                    both SwifUI, Nextjs & Nestjs
+                </p>
+            </div>
+            <img src="./assets/mypic.jpg" alt="hero" id="heroImage">
+        </div>
+    </section>
 
     <!-- Projects -->
     <section id="projects"></section>
@@ -28,5 +67,8 @@
 
     <!-- Footer -->
     <div id="footer"></div>
+
+    <script src="./js/script.js"></script>
 </body>
+
 </html>
