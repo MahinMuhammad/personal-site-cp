@@ -10,3 +10,12 @@ function contexMenuSwitchPressed() {
         document.getElementById('bar-icon').style.display = 'block'
     }
 }
+
+function sendClicked(){
+    let elements = document.getElementsByClassName('field')
+    
+    for(let i=0; i<elements.length; i++){
+        elements[i].value = "";
+    }
+    alert("Message Sent!")
+}

@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Open+Sans:wght@400;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <link rel="stylesheet" href="./styles/style.css" type="text/css">
 </head>
 
@@ -95,17 +96,17 @@
         <div id="aboutContainer">
             <div id="mtselfInfo">
                 <p class="title">What I do!</p>
-                <p class="detail">I am an experienced iOS & Webapp developer with a track record of crafting seamless
-                    user experiences and innovative apps. With one year of experience,I'm driven to contribute
+                <p class="detail">I am an experienced <strong>iOS</strong> & <strong>Webapp developer</strong> with a track record of crafting seamless
+                    user experiences and innovative apps. With <strong>one year of experience</strong>,I'm driven to contribute
                     effectively while continuously enhancing my skills to drive personal growth and elevate business
                     success.
-
-                    I keep most of my projects on GitHub. You can check my projects from GitHub or AppStore if
-                    published. Please scroll to the Project section for the links.
-
-                    Currently I am open to Job opportunities, so that I may contribute and gain real life experience. If
+                    <br><br>
+                    I keep most of my projects on <a href="https://github.com/MahinMuhammad" target="_blank"><font color="#4942E4"><strong><u>GitHub</u></strong></font></a>. You can check my projects from GitHub or AppStore if
+                    published. Please scroll to the <a href="#projects"><font color="#4942E4"><strong><u>Project</u></strong></font></a> section for the links.
+                    <br><br>
+                    Currently I am open to <strong>Job</strong> opportunities, so that I may contribute and gain real life experience. If
                     you find my skills be fitting any good opportunity that you may provide, I would be pleased if you
-                    Contact me.
+                    <a href="#contact"><font color="#4942E4"><strong><u>Contact</u></strong></font></a> me.
                 </p>
             </div>
             <div id="skillContainer">
@@ -132,11 +133,52 @@
 
     <!-- Contact -->
     <section id="contact">
+        <div id="contactContainer">
+            <form id="contactForm">
+                <Strong class="detail">Email</Strong>
+                <br>
+                <input type="text" class="field">
+                
+                <Strong class="detail">Name</Strong>
+                <br>
+                <input type="text" class="field">
 
+                <Strong class="detail">Content</Strong>
+                <br>
+                <textarea name="" id="content" class="field"></textarea>
+                <button type="button" class="detail" onclick="sendClicked()">Send</button>
+            </form>
+            <div id="contactAddress">
+                <p class="title">Hire Me!</p>
+
+                <p class="detail">
+                    <Strong>Present Address</Strong>
+                    <br>
+                    Rayerbazar, Dhanmondi, Dhaka
+                </p>
+                <p class="detail">
+                    <Strong>Email Address</Strong>
+                    <br>
+                    rahmanmahin@icloud.com
+                </p>
+                <p class="detail">
+                    <Strong>Phone Number</Strong>
+                    <br>
+                    +8801302607858
+                </p>
+            </div>
+        </div>
     </section>
 
     <!-- Footer -->
-    <div id="footer"></div>
+    <div id="footer">
+        <div>© 2024 <u>Md. Mahinur Rahman</u></div>
+        <div>
+            <a href="https://www.linkedin.com/in/rahmanmahin/" target="_blank"><i class="devicon-linkedin-plain"></i></a>
+            <a href="https://github.com/MahinMuhammad" target="_blank"><i class="devicon-github-original"></i></a>
+            <a href="https://www.facebook.com/mahin5muhammad" target="_blank"><i class="devicon-facebook-plain"></i></a>
+        </div>
+    </div>
 
     <script src="./js/script.js"></script>
 </body>
